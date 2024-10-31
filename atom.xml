@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://https://dayisstaty.github.io/</id>
+    <title>Gridea</title>
+    <updated>2024-10-31T00:30:51.331Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://https://dayisstaty.github.io/"/>
+    <link rel="self" href="https://https://dayisstaty.github.io/atom.xml"/>
+    <subtitle>学而不思则罔</subtitle>
+    <logo>https://https://dayisstaty.github.io/images/avatar.png</logo>
+    <icon>https://https://dayisstaty.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[如何实现一个自己的malloc分配器]]></title>
+        <id>https://https://dayisstaty.github.io/post/ru-he-shi-xian-yi-ge-malloc-fen-pei-qi/</id>
+        <link href="https://https://dayisstaty.github.io/post/ru-he-shi-xian-yi-ge-malloc-fen-pei-qi/">
+        </link>
+        <updated>2024-10-17T10:22:45.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="一-对外函数接口">一、对外函数接口</h1>
+<h2 id="11-malloc">1.1 malloc</h2>
+<p>分配资源，给调用者</p>
+<h2 id="12-free">1.2 free</h2>
+<p>回收分配给调用者的资源</p>
+<h1 id="二-函数实现">二、函数实现</h1>
+<h2 id="21-malloc实现">2.1 malloc实现</h2>
+<h3 id="211-找空闲空间">2.1.1 找空闲空间</h3>
+<p>要分配资源，得有资源才能分配，所以第一步，找空闲的资源。<br>
+最初的资源从哪里来，最简单粗暴的方法，创建一个unsigned char 的全局数组，此数组就是整个程序所能使用的最大的可分配的资源。<br>
+当拥有一块可以支配的空间后，就需要考虑，如何将这片空间合理的分配出去。当分配完这一份空间后，</p>
+]]></content>
+    </entry>
+</feed>
